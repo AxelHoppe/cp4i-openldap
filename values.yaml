@@ -1,6 +1,6 @@
 OpenLdap:
   Image: "docker.io/osixia/openldap"
-  ImageTag: "1.4.0"
+  ImageTag: "1.5.0"
   ImagePullPolicy: "Always"
   Component: "openldap"
   Replicas: 1
@@ -22,4 +22,4 @@ PhpLdapAdmin:
   Replicas: 1
   Cpu: "512m"
   Memory: "200Mi"
-  Https: "false"
+  Https: "true"
